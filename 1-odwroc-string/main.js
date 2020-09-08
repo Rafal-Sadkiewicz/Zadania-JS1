@@ -7,4 +7,4 @@ const reverseStr = (strRev) =>
 }
 
 
-console.log(reverseStr("Studio 108"));
+console.log(reverseStr("Akademia 108"));
