@@ -3,7 +3,7 @@ const fibbonaci = (nElm) =>
     
     if (nElm < 1)
     {
-        console.log("Należy podać n-ty element ciągu większy od zera");
+        console.log("Wyrazy ciągu muszą być większę bądź równe zero");
     }
 
     else if (nElm == 0)

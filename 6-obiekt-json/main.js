@@ -11,5 +11,5 @@ let jsonPracownicy =
 
 jsonPracownicy.pracownicy.forEach((element, index) => 
 {
-    console.log(`${index + 1}. Imię: ${element.firstName} | Nazwisko: ${element.lastName}`)
+    console.log(`${index + 1}. Imię: ${element.firstName} | Nazwisko: ${element.lastName}`);
 });
