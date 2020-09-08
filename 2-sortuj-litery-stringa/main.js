@@ -1,4 +1,4 @@
-const reverseStr = (strRev) =>
+const sortStr = (strRev) =>
 {
     strRev = strRev.split("");
     strRev = strRev.sort();
@@ -7,4 +7,4 @@ const reverseStr = (strRev) =>
 }
 
 
-console.log(reverseStr("Akademia 108"));
+console.log(sortStr("Akademia 108"));
