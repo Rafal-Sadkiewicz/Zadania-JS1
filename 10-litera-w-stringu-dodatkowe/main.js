@@ -1,16 +1,16 @@
-function charcount(stringToCount = "aaa", param = "a")
-{
-    let counter = 0;
-
-    for(let i=0; i<stringToCount.length; i++)
+    function charcount(stringToCount, param)
     {
-        if (stringToCount[i] == param)
+        let counter = 0;
+
+        for(let i=0; i<stringToCount.length; i++)
         {
-            counter ++;
+            if (stringToCount[i] == param.toUpperCase() ||  stringToCount[i] == param.toLowerCase())
+            {
+                counter ++;
+            }
         }
+
+        return counter;
     }
 
-    return counter;
-}
-
-console.log(charcount("Szkoła Programowania Akademia 108", "a"));
+    console.log(charcount("Szkoła Programowania Akademia 108", "a"));
